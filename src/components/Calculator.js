@@ -54,7 +54,7 @@ const Calculator = () => {
       </div>
       <div id="row5">
         <button type="button" id="n0" onClick={handleClick}>0</button>
-        <button type="button" className="number" onClick={handleClick}><b>.</b></button>
+        <button type="button" className="number" onClick={handleClick}>.</button>
         <button className="operator" type="button" onClick={handleClick}>=</button>
       </div>
     </div>

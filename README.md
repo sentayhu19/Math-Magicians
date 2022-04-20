@@ -21,6 +21,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - VScode or other editor
 
+### Install
+
+#### Cloning the project
+
+git clone https://github.com/sentayhu19/Math-Magicians <Your-Build-Directory>
 
 ## Available Scripts
 

@@ -18,7 +18,7 @@ body {
 
 #input {
   background-color: var(--numberInput);
-  width: 312px;
+  width: 320px;
   height: 35px;
   text-align: right;
   color: var(--input);
@@ -27,6 +27,7 @@ body {
 
 ::placeholder {
   color: white;
+  padding-right: 5px;
 }
 
 .calc-wrap {
@@ -44,6 +45,6 @@ body {
 }
 
 #n0 {
-  width: 240px;
+  width: 160px;
   height: 40px;
 }

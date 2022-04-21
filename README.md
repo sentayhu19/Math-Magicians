@@ -89,4 +89,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.![](https://img.shields.io/badge/Microverse-blueviolet)
+This project is [MIT](./MIT.md) licensed.![https://opensource.org/licenses/MIT](https://img.shields.io/badge/Microverse-blueviolet)

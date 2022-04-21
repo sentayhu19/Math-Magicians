@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [calc, setcalc] = useState({
+  const [currentCalc, setcalc] = useState({
     next: '',
     total: 0,
     operation: '',
   });
-  const { next, total, operation } = calc;
+  const { next, total, operation } = currentCalc;
   const handleClick = (e) => {
     e.preventDefault();
     setcalc((state) => calculate({

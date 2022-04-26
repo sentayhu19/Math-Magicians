@@ -2,11 +2,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url('https://cdn.pixabay.com/photo/2016/02/14/09/44/nebulae-1199180_960_720.jpg');
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 :root {
   --orange: #ffa500;
-  --numberInput: rgb(138, 128, 128);
+  --numberInput: rgb(18, 17, 17);
   --input: rgb(255, 254, 254);
   --borderCol: rgb(123, 115, 115);
 }
@@ -19,7 +23,7 @@ body {
 #input {
   background-color: var(--numberInput);
   width: 320px;
-  height: 35px;
+  height: 65px;
   text-align: right;
   color: var(--input);
   font-size: larger;
@@ -31,7 +35,7 @@ body {
 }
 
 .calc-wrap {
-  border: 1px black solid;
+  border: 1px rgb(221, 87, 87) solid;
   width: 320px;
   margin-left: 20px;
   margin-top: 20px;
@@ -41,10 +45,18 @@ body {
 .operator,
 .number {
   width: 80px;
-  height: 40px;
+  height: 70px;
+  border-radius: 50px;
 }
 
 #n0 {
   width: 160px;
-  height: 40px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.blur {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }

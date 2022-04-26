@@ -5,17 +5,17 @@ import './NavBar.css';
 
 const NavMenu = [
   {
-    title: 'Home |',
+    title: 'Home | ',
     url: '/',
     CName: 'nav-link',
   },
   {
-    title: 'Calculator |',
+    title: 'Calculator | ',
     url: '/Calculator',
     CName: 'nav-link',
   },
   {
-    title: 'Quotes |',
+    title: 'Quotes ',
     url: '/Quote',
     CName: 'nav-link',
   },
@@ -23,7 +23,7 @@ const NavMenu = [
 const NavBar = () => (
   <nav>
     <h1>Math Magician</h1>
-    <ul>
+    <ul className="nav-link-wrap">
       {NavMenu.map((item) => (
         <li key={generate({ charset: alphanumeric })}>
           <a className={item.CName} href={item.url}>

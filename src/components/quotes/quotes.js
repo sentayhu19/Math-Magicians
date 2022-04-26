@@ -1,6 +1,6 @@
 import React from 'react';
 
-const quote = () => (
+const Quote = () => (
   <>
     <p>
       mathematician is not about numbers, equations, computations,
@@ -8,4 +8,4 @@ const quote = () => (
     </p>
   </>
 );
-export default quote;
+export default Quote;

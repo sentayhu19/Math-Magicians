@@ -1,0 +1,12 @@
+.calc-wrap {
+  position: fixed;
+  right: 250px;
+  top: 220px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .calc-wrap {
+    position: static;
+    margin: auto;
+  }
+}

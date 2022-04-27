@@ -10,7 +10,7 @@ nav {
 .nav-link-wrap {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: right;
   margin-right: 40px;
 }
@@ -30,4 +30,19 @@ h1 {
 
 .nav-link:hover {
   color: yellow;
+}
+
+.logo-m {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    display: none;
+  }
+
+  .nav-link-wrap {
+    gap: 50%;
+    margin-right: 100px;
+  }
 }

@@ -6,6 +6,7 @@ body {
   backdrop-filter: blur(10px);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Barlow', cursive;
 }
 
 :root {
@@ -39,6 +40,8 @@ body {
   width: 320px;
   margin-left: 20px;
   margin-top: 20px;
+  border-bottom-right-radius: 38px;
+  background-color: rgb(74, 52, 52);
 }
 
 .op,
@@ -49,14 +52,14 @@ body {
   border-radius: 50px;
 }
 
+.op:active,
+.operator:active,
+.number:active {
+  box-shadow: 0 0 10px rgba(225, 196, 196, 0.8);
+}
+
 #n0 {
   width: 160px;
   height: 60px;
   border-radius: 30px;
-}
-
-.blur {
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }

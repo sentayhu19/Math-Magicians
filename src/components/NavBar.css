@@ -28,6 +28,6 @@ h1 {
 
 /* NAV Hover */
 
-.hoverstyle ul li:hover {
-  color: aqua;
+.nav-link:hover {
+  color: yellow;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import calaculate from '../../logic/calculate';
 
 describe('Test for calaculate', () => {
@@ -20,8 +21,8 @@ describe('Test for calaculate', () => {
     expect(test1.next).toBe(null);
     expect(test1.total).toBe('2');
     expect(test1.operation).toBe(null);
-  })
-  , test('Multiplying numbers', () => {
+  }),
+  test('Multiplying numbers', () => {
     test1 = calaculate({ next: number1[3], total: number2[3], operation: 'x' }, '=');
     expect(test1.next).toBe(null);
     expect(test1.total).toBe('102');

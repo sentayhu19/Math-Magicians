@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header page of the App Builds the snapchot of the Header component safely 1`] = `
+<nav>
+  <a
+    href="/"
+  >
+    <h1>
+      <span
+        className="logo-m"
+      >
+        M
+      </span>
+      ath Magician
+    </h1>
+  </a>
+   
+  <ul
+    className="nav-link-wrap"
+  >
+    <li>
+      <a
+        className="nav-link"
+        href="/"
+        id={0}
+        onClick={[Function]}
+      >
+        <svg
+          aria-labelledby="svg-inline--fa-title-Lpclq97BJ6Gi"
+          className="svg-inline--fa fa-house "
+          data-icon="house"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="svg-inline--fa-title-Lpclq97BJ6Gi"
+            style={Object {}}
+          >
+            Home
+          </title>
+          <path
+            d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+            
+        <span
+          className="title"
+        >
+          Home | 
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-link"
+        href="/Calculator"
+        id={1}
+        onClick={[Function]}
+      >
+        <svg
+          aria-labelledby="svg-inline--fa-title-Mz1Ne3MsduaP"
+          className="svg-inline--fa fa-calculator "
+          data-icon="calculator"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="svg-inline--fa-title-Mz1Ne3MsduaP"
+            style={Object {}}
+          >
+            Calculator
+          </title>
+          <path
+            d="M336 0h-288C22.38 0 0 22.38 0 48v416C0 489.6 22.38 512 48 512h288c25.62 0 48-22.38 48-48v-416C384 22.38 361.6 0 336 0zM64 208C64 199.2 71.2 192 80 192h32C120.8 192 128 199.2 128 208v32C128 248.8 120.8 256 112 256h-32C71.2 256 64 248.8 64 240V208zM64 304C64 295.2 71.2 288 80 288h32C120.8 288 128 295.2 128 304v32C128 344.8 120.8 352 112 352h-32C71.2 352 64 344.8 64 336V304zM224 432c0 8.801-7.199 16-16 16h-128C71.2 448 64 440.8 64 432v-32C64 391.2 71.2 384 80 384h128c8.801 0 16 7.199 16 16V432zM224 336c0 8.801-7.199 16-16 16h-32C167.2 352 160 344.8 160 336v-32C160 295.2 167.2 288 176 288h32C216.8 288 224 295.2 224 304V336zM224 240C224 248.8 216.8 256 208 256h-32C167.2 256 160 248.8 160 240v-32C160 199.2 167.2 192 176 192h32C216.8 192 224 199.2 224 208V240zM320 432c0 8.801-7.199 16-16 16h-32c-8.799 0-16-7.199-16-16v-32c0-8.801 7.201-16 16-16h32c8.801 0 16 7.199 16 16V432zM320 336c0 8.801-7.199 16-16 16h-32c-8.799 0-16-7.199-16-16v-32C256 295.2 263.2 288 272 288h32C312.8 288 320 295.2 320 304V336zM320 240C320 248.8 312.8 256 304 256h-32C263.2 256 256 248.8 256 240v-32C256 199.2 263.2 192 272 192h32C312.8 192 320 199.2 320 208V240zM320 144C320 152.8 312.8 160 304 160h-224C71.2 160 64 152.8 64 144v-64C64 71.2 71.2 64 80 64h224C312.8 64 320 71.2 320 80V144z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+            
+        <span
+          className="title"
+        >
+          Calculator | 
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-link"
+        href="/Quote"
+        id={2}
+        onClick={[Function]}
+      >
+        <svg
+          aria-labelledby="svg-inline--fa-title-ZPvi1qguZpGH"
+          className="svg-inline--fa fa-quote-left "
+          data-icon="quote-left"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title
+            id="svg-inline--fa-title-ZPvi1qguZpGH"
+            style={Object {}}
+          >
+            quote
+          </title>
+          <path
+            d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+            
+        <span
+          className="title"
+        >
+          Quotes 
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

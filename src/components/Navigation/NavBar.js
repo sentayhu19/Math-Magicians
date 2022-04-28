@@ -4,6 +4,7 @@ import { alphanumeric } from 'randomized-string/lib/types';
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalculator, faHome, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const IconSelector = (index) => {
   if (index === 0) {
@@ -49,11 +50,11 @@ const NavBar = () => (
       <ul className="nav-link-wrap">
         {NavMenu.map((item, index) => (
           <li key={generate({ charset: alphanumeric })}>
-            <a className={item.CName} id={index} href={item.url} onClick={navhandler}>
+            <Link className={item.CName} id={index} href={item.url} onClick={navhandler}>
               {IconSelector(index)}
               {'    '}
               <span className="title">{item.title}</span>
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

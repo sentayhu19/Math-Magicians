@@ -50,7 +50,7 @@ const NavBar = () => (
       <ul className="nav-link-wrap">
         {NavMenu.map((item, index) => (
           <li key={generate({ charset: alphanumeric })}>
-            <Link className={item.CName} id={index} href={item.url} onClick={navhandler}>
+            <Link className={item.CName} id={index} to={item.url} onClick={navhandler}>
               {IconSelector(index)}
               {'    '}
               <span className="title">{item.title}</span>

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import operate from '../../logic/operate';
 
 let test;
@@ -7,8 +8,7 @@ describe('Operate test', () => {
   it('Adding two numbers', () => {
     test = operate(n1[0], n2[0], '+');
     expect(test).toBe('994');
-  })
-  ,
+  }),
   it('Sub of numbers', () => {
     test = operate(n1[1], n2[1], '-');
     expect(test).toBe('-8');

@@ -4,7 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "Math magicians" is a website for all fans of mathematics. You can Make simple calculations and Read a random math-related quote.
 
-<!-- ![LearderBoard design (20)]() comming soon-->
+![Math-Magicians Home page (20)](https://raw.githubusercontent.com/sentayhu19/Math-Magicians/testing/src/image/Screenshot%202022-04-28%20141844.png)
+
+
+![Math-Magicians Calculator page (20)](https://raw.githubusercontent.com/sentayhu19/Math-Magicians/testing/src/image/Screenshot%202022-04-28%20141940.png)
+
+
+
+![Math-Magicians Calculator page (20)](https://raw.githubusercontent.com/sentayhu19/Math-Magicians/testing/src/image/Screenshot%202022-04-28%20142005.png)
 
 <!-- ## Live demo -->
 

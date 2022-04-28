@@ -41,7 +41,7 @@ export default function calculate(obj, buttonName) {
     }
     return {
       next: buttonName,
-      total: null,
+      total: null, 
     };
   }
 

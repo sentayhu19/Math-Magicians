@@ -15,7 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <!-- ## Live demo -->
 
-<!-- [Live Demo Link]( ) comming soon-->
+[Live Demo Link on Netlify](https://idyllic-axolotl-23085c.netlify.app/) 
+
+[Live Demo Link on Heoku ](https://math-magicians-sentayhu.herokuapp.com/)
 
 ## Built With
 
